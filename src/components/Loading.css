@@ -1,0 +1,32 @@
+.animated-loading {
+  display: inline-block;
+  padding: 20px;
+}
+
+.animated-loading-box {
+  height: 75px;
+  width: 75px;
+  border-width: 10px;
+  border-style: solid;
+  transform: rotate(180deg);
+  animation: roll 2s infinite ease-out;
+}
+
+.animated-loading-inner-box {
+  height: 20px;
+  animation: fill 2s infinite ease-in ;
+}
+
+@keyframes fill{
+  0% { height: 0px; }
+  40% { height: 75px; }
+  60% { height: 75px; }
+  100% { height: 0px; }
+}
+
+@keyframes roll{
+  0% { transform: rotate(180deg); }
+  40% { transform: rotate(180deg); }
+  60% { transform: rotate(360deg); }
+  100% { transform: rotate(360deg); }
+}

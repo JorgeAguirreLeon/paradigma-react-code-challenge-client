@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: #222;
+  width: 100%;
+  color: white;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.App-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.App-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-content-error {
+  margin: 0;
+  padding: 24px;
+  background: #dc3545;
+  color: white;
+  margin: 0 15px;
+  line-height: 25px;
+}
