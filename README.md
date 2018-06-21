@@ -17,6 +17,8 @@ It runs in `http://localhost:3000` and has hot reloading
 
 Component tests are run with `npm run test`
 
+End to End test are built with _cypress_ and run with `npm run test-e2e`
+
 ### Production
 
 ### Docker
